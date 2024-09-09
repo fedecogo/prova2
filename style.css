@@ -1,0 +1,37 @@
+/* Stili generali */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Stile per il bottone */
+#btn-papa {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn-papa:hover {
+    background-color: #45a049;
+}
+
+/* Stile per il messaggio */
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
